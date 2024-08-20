@@ -1,0 +1,625 @@
+00:05:33	Fatih Baytar:	günaydın
+00:05:33	Ayla Kayabas:	Günaydın hocam
+00:05:33	Ömer Bilen:	günaydın hocam
+00:05:39	egtm çlşmk:	günaydın hocam
+00:05:44	Ömer Bilen:	hay. akşamlar
+00:05:45	Ayla Kayabas:	özledik:)
+00:05:54	Ömer Bilen:	özledik tabiki
+00:18:33	Mustafa Kayikci:	6.ya 1 oranı çok çok outlier..neden acaba..
+00:35:34	Halil Şirin:	Clustering’de başarı oranı?
+00:44:03	Abdullatif:	estağfirullah hocam
+00:44:55	Mustafa Kayikci:	..sabah afyon henüz patlamadıgından..katkılar da..kendini tanıtlamalr da kısıtlı olabiliyor hocam 🙂 başkaca sorun yok..
+00:50:20	Gülden B. KAVAL:	isim verebiliyor musunuz ? :)
+00:51:13	Ayla Kayabas:	hahah
+00:51:24	Ömer Bilen:	bu nikah kıyılamaz demiş
+00:53:21	öznur:	hocam göz sağlığınız nasıl oldu
+00:53:41	öznur:	geçmiş olsun hocam
+00:54:00	Dr. Murat ALTUN:	Hocam  4. gün materyalleri yüklendi mi ?
+00:55:02	Ayla Kayabas:	kimse alamadı mı 50 doları?
+00:55:06	Ayla Kayabas:	:)
+00:56:21	Dr. Murat ALTUN:	Regression
+00:56:47	Abdullatif:	ESC + M
+00:57:10	Halil Şirin:	Raw nedir?
+00:57:38	Ömer Bilen:	işlenmemiş ham
+00:58:09	Abdullatif:	Projeleri ne zaman githuba yükleyeceğiz?
+00:58:53	Dr. Murat ALTUN:	https://www.kaggle.com/datasets/harlfoxem/housesalesprediction/download?datasetVersionNumber=1
+01:02:31	yusuf inan:	hocam yukardaki yazıları da gönderebilir misiniz
+01:02:50	Dr. Murat ALTUN:	https://www.kaggle.com/datasets/harlfoxem/housesalesprediction/data
+01:02:58	Zafer Acar:	<img src='https://www.racialequityalliance.org/wp-content/uploads/2016/10/assessors_social-1.jpg'><a href='https://www.kaggle.com/code/shiv28/house-price-prediction-in-king-county-usa' target=_blank>Data dosyasini burada bulabilirsiniz</a>
+01:03:49	Zafer Acar:	import pandas as pd # Data dosyalarini okuma paketipd.set_option("display.max_columns",55)from sklearn.linear_model import LinearRegressionfrom sklearn.model_selection import train_test_splitfrom sklearn.metrics import r2_score, mean_squared_errorimport matplotlib.pyplot as pltimport seaborn as snsfrom sklearn.linear_model import Ridge, Lasso, ElasticNet
+01:04:37	yusuf inan:	Hocam yukarda yazdığınız ilk yazıyı yazamadım
+01:05:20	Zafer Acar:	Bu projede King COunty WA da ev fiyatlarini regression ile tahmin eden modeli gelistirecegiz. Data Kaggle projesinden alinmis. This dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015.
+01:05:40	Zafer Acar:	Data Dictionaryid :a notation for a housedate: Date house was soldprice: Price is prediction targetbedrooms: Number of Bedrooms/Housebathrooms: Number of bathrooms/bedroomssqft_living: square footage of the homesqft_lot: square footage of the lotfloors :Total floors (levels) in housewaterfront :House which has a view to a waterfrontview: Has been viewedcondition :How good the condition is Overallgrade: overall grade given to the housing unit, based on King County grading systemsqft_above :square footage of house apart from basementsqft_basement: square footage of the basementyr_built :Built Yearyr_renovated :Year when house was renovatedzipcode:zip codelat: Latitude coordinatelong: Longitude coordinatesqft_living15 :Living room area in 2015(implies-- some renovations) This might or might not have affected the lotsize areasqft_lot15 :lotSize area in 2015(implies-- some renovations)
+01:06:59	Zafer Acar:	import warningswarnings.filterwarnings('ignore')
+01:07:44	Ömer Bilen:	ithal
+01:07:48	Ömer Bilen:	etnek
+01:07:48	Dr. Murat ALTUN:	içe aktarma
+01:08:20	Yunus Kıran:	hocam kernel error diyor da ne yapmam lazım
+01:08:37	ÖMER CAN:	jupyteri kapatıp tekrar açın
+01:08:52	Yunus Kıran:	tamamdır
+01:09:49	Samet Yazıcı:	data sözlüğün Türkçe açıklaması Veri Sözlüğüid: Ev için bir notasyondate: Ev satıldığı tarihprice: Tahmin edilen fiyat (Hedef değişken)bedrooms: Yatak odası sayısıbathrooms: Banyo sayısı/yatak odasısqft_living: Ev alanının kare metre cinsinden büyüklüğüsqft_lot: Arsa alanının kare metre cinsinden büyüklüğüfloors: Evdeki toplam kat sayısıwaterfront: Su kenarı manzarası olan evview: Görüntülenmiş mi?condition: Genel olarak evin durumu
+01:10:03	Samet Yazıcı:	grade: King County derecelendirme sistemine göre ev birimine verilen genel derecesqft_above: Bodrum hariç evin alanının kare metre cinsinden büyüklüğüsqft_basement: Bodrum alanının kare metre cinsinden büyüklüğüyr_built: İnşa edildiği yılyr_renovated: Ev yenilendiği yılzipcode: Posta kodulat: Enlem koordinatılong: Boylam koordinatısqft_living15: 2015'te oturma odası alanı (bazı yenilemeleri gösterebilir veya göstermeyebilir). Bu, arsa alanını etkilemiş olabilir.sqft_lot15: 2015'te arsa alanı (bazı yenilemeleri gösterebilir veya göstermeyebilir).
+01:10:09	Samet Yazıcı:	poe hocam
+01:10:49	Yunus Kıran:	düzelmedi hocam kernel error
+01:11:11	ÖMER CAN:	odaya davet ediyorum
+01:13:06	Dr. Murat ALTUN:	😅
+01:13:13	Ayla Kayabas:	:)
+01:13:49	Ayla Kayabas:	anlaşılmaz yaşanır:)
+01:13:53	Halil Şirin:	Eğitim sistemi
+01:17:09	Abdullatif:	ilk gün köprüyü karıştırmadınız umarım?
+01:18:30	Abdullatif:	:(
+01:19:02	dilara:	hikayeler her zaman komik olmuyor hocam bu da acıklı
+01:19:41	Abdullatif:	Keşfedici ?
+01:20:30	yusuf inan:	Keşifçi
+01:21:14	Osman Yıldırım:	SyntaxError: invalid syntax           Hatası Neden Verir?
+01:21:25	Abdullatif:	Yazım hatası
+01:21:29	Ayfer Akova:	son ders hızlıydı
+01:27:41	Dery@:	cmap='RdYlGn'
+01:27:49	Iclal:	Mac de hangi tus bilen varmi
+01:28:30	Abdullatif:	Shift + Tab
+01:31:49	Dr. Murat ALTUN:	😂
+01:32:42	Abdullatif:	Yazarlardan biri bunlarla akraba mı Thuong TK Nguyen, Minh T. Nguyen
+01:33:07	Duygu:	:D
+01:33:08	dilara:	https://www.karar.com/yazarlar/zafer-acar
+01:33:10	Osman Yıldırım:	😅
+01:33:17	Ayla Kayabas:	:)
+01:33:26	Gülden B. KAVAL:	😄
+01:33:28	onurayan:	Hocam ne kadar çok makale yazmışsınız
+01:36:48	dilara:	hocam türkiyenin akademisi körler sağırlar birbirini ağırlar misali...
+01:37:38	ibrahim:	price küçük
+01:38:06	Dr. Murat ALTUN:	Replying to "hocam türkiyenin aka..."
+
+Çiftlik
+01:41:23	Ali:	Banyo sayisi sifir olanlarda var
+01:42:22	Abdullatif:	dfdesc=df.describe().Tdfdesc["out"]=dfdesc["std"]*3+dfdesc["mean"]dfdesc["out"]
+01:42:29	Abdullatif:	Tüm alanlar için kullanabilirizi
+01:47:39	Abdullatif:	outliers=df.quantile(q=.97, numeric_only=True)
+01:47:41	Abdullatif:	çalıştı ama
+01:55:26	Yasin Yücetaş:	hocam ben bi hata aldım
+01:55:55	Ömer Bilen:	2.satırın sonunda s olacak
+01:56:07	öznur:	bedrooms
+01:56:22	Zafer Acar:	df=df[(df['price']<outliers['price'])]df=df[(df['bedrooms']<outliers['bedrooms'])]df=df[(df['bathrooms']<outliers['bathrooms'])]df=df[(df['sqft_living']<outliers['sqft_living'])]
+01:58:41	Av. Nagihan Merve Akaslan:	sondan yüzde 3 kesildi, başlangıçtan yüzde 3 kesilmesi için ne yapmak gerek
+02:00:49	Halil Şirin:	Yardım alabilir miyim asistan arkadaşlar
+02:00:59	Halil Şirin:	hata
+02:01:04	Ömer Bilen:	uç değerler
+02:01:07	Ufuk Yapar:	Replying to "Yardım alabilir miyi..."
+
+Odaya davet ediyorum
+02:02:01	öznur:	hocam yukrıda kod kaçırdım bir gösterir misiniz hemen fotoğrafını çeksem
+02:02:35	dudu 2:	benim grefiğim neden böyle gozukuyot
+02:03:28	dudu 2:	teşekkürler
+02:04:49	öznur:	hocam yukrıda kod kaçırdım bir gösterir misiniz hemen fotoğrafını çeksem   abs kodunda sonra arada biri kaçtı
+02:06:47	Tarık KÜREN:	Replying to "benim grefiğim neden..."
+
+df=df[(df['bedrooms']<outliers['bedrooms'])] bu kodu birden fazla kez çalıştırmış olabilir misiniz? Veriniz birden çok kez kesilmiş olabilir mi? (Fikir olarak söylüyorum) eğer böyleyse df’i en baştan yükleyecek şekilde tüm satır kodlarını en baştan çalıştırmanızı öneririm
+02:09:53	öznur:	Reacted to "{5FBF009B-71F2-47FE-B7E9-D0A2AD0CDE17}.png" with 👍
+02:10:00	Abdullatif:	hocam bu da bir çözüm olabilir mi?
+02:10:01	Abdullatif:	df["age"]=df["yr_built"].max()-df['yr_built']
+02:11:21	Dr. Murat ALTUN:	df['yr_renovated']=np.where(df['yr_renovated']==0,0,1)
+02:11:47	yusuf inan:	9:8
+02:11:59	dilara:	uyar
+02:12:07	Fatih Baytar:	çok güzel gidiyor hocam o yüzden :)
+02:12:15	Sehri Altay:	devam edebiliriz hocam
+02:12:17	Abdullatif:	Hocam bir ara verelim :)
+02:32:19	Gülden B. KAVAL:	👍
+02:35:32	Abdullatif:	Korelasyonu 20-90 arası alanları şöyle de ayıklayabiliriz:price_corr= abs(df.corr(numeric_only=True)['price'].sort_values(ascending=False))cols =pd.DataFrame({"columns":price_corr.index, "values":price_corr})cols =cols[(cols["values"]>=0.2) & (cols["values"]<=0.9)]cols =[a for a in cols["columns"]]cols
+02:36:16	Zafer Acar:	df['yr_renovated']=np.where(df['yr_renovated']>0,1,0)df['sqft_basement']=np.where(df['sqft_basement']>0,1,0)
+02:36:49	Bilge:	zipcode?
+02:38:35	Zafer Acar:	x=df.drop(['id','date','lat','long','price'], axis=1)y=df[['price']]
+02:40:10	Ahmed Faruk:	.20
+02:41:09	Fatih Baytar:	random state koyacak mıyız hocam?
+02:41:15	Tarık KÜREN:	random_state kullanmıycak mıyız hocam
+02:41:25	Dr. Murat ALTUN:	x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=.2, random_state=42)
+02:43:51	Abdullatif:	zipcode için dummy gerekli mi hocam?
+02:44:00	Dr. Murat ALTUN:	Reacted to "zipcode için dummy g..." with 👍
+02:48:56	Hatice Tutuş:	ben başarıya ulaşamadım %60 bende
+02:51:57	Hatice Tutuş:	yaptım ama değişmedi
+02:52:08	Hatice Tutuş:	kod atladım sanırım
+02:53:12	ÖMER CAN:	x=pd.get_dummies(x,drop_first=True)
+02:54:21	Hatice Tutuş:	teşekkür ederim
+02:57:33	Yunus Kıran:	:)
+02:57:36	Murat Özyılmaz:	:D
+02:58:32	Halil Şirin:	Kodları gönderir misiniz?
+02:59:22	Osman Yıldırım:	hocam geri kadlımda Yukarıdaki kodları gösterirmisiniz?
+02:59:42	Bilge:	feature_importance=pd.DataFrame({"Feature": x_train.columns,"Coefs":lr.coef_[0]})
+02:59:47	Bilge:	feature_importance=feature_importance.sort_values(by='Coefs', ascending=False)
+02:59:54	Bilge:	plt.figure(figsize=(6,15))plt.barh(feature_importance['Feature'],feature_importance['Coefs'])plt.gca().invert_yaxis()
+02:59:59	Bilge:	residuals=tahmin-y_test
+03:00:03	Bilge:	sns.histplot(residuals, kde=True, bins=100);
+03:00:08	Bilge:	sns.kdeplot(x=residuals["price"], color="purple", fill=True);
+03:00:43	Bilge:	Feature Importance başlığından sonrası
+03:00:54	Yasin Yücetaş:	Reacted to "Feature Importance b..." with 👍
+03:01:15	Mustafa Kayikci:	Reacted to "sns.kdeplot(x=residu..." with 🙏
+03:01:29	Yunus Kıran:	Reacted to "sns.kdeplot(x=residu..." with 👏
+03:01:47	öznur:	Reacted to "sns.kdeplot(x=residu..." with 🙏
+03:01:51	öznur:	Reacted to "Feature Importance b..." with 👍
+03:03:10	Hasibe:	feature_importance=pd.DataFrame({"Feature":x_train.columns, "Coefs":lr.coef_[0]})
+03:03:11	Hasibe:	feature_importance=feature_importance.sort_values(by="Coefs", ascending=False)
+03:03:17	Hasibe:	feature_importance
+03:06:50	dudu 2:	bende de böylr b
+03:07:41	yusuf inan:	o şeyi nerden alacağız?
+03:07:57	Yunus Kıran:	hocam onu atar mıısnız
+03:08:09	dudu 2:	hocam o en son kısmı atabilir misiniz
+03:08:54	Yunus Kıran:	dün yaptık normalde hocam, bunu da mı ekleyeceğiz,
+03:13:10	yusuf inan:	Hocam şu son büyük kodu atabilir misiniz
+03:15:04	dilara:	cimri ve akakçe var hocam Trde fotoğraftan analiz ediyor galiba
+03:15:35	Dr. Murat ALTUN:	Uçak bileti fiyatı tahmin sitesi de vardı o şekilde en uygun zamanı belirliyr alım için
+03:15:50	yusuf inan:	Hocam şu son büyük kodu atabilir misiniz….
+03:16:09	Dr. Murat ALTUN:	Kod kod kod kod
+03:16:57	Abdullatif:	whatsapp da olur hocam
+03:17:12	Ayla Kayabas:	WhatsApp
+03:17:25	Yunus Kıran:	Reacted to "Kod kod kod kod" with 😂
+03:17:58	Beyza Alpay:	hocam önceden sertifika alamayanlar da bunları yüklemeli değil mi?
+03:18:38	Dr. Murat ALTUN:	Reacted to "RegressionFUnction.txt" with 👍
+03:20:31	Duygu:	😀
+03:21:12	Duygu:	İyiymiş :)
+03:22:19	öznur:	hocam o kodu da gösterecek misiniz feture yi kendi yapanı
+03:22:27	Mustafa Kayikci:	autoML seklinde miydi hocam malum paket
+03:23:10	Av. Nagihan Merve Akaslan:	No module named 'xgboost' DİYOR
+03:23:29	Yasin Yücetaş:	Replying to "No module named 'xgb..."
+
+bi satır önce pip install xgboost yazın
+03:23:31	Ufuk Yapar:	Replying to "No module named 'xgb..."
+
+Pip install xgboost
+03:23:31	Melih Bedirhan Calis:	Replying to "No module named 'xgb..."
+
+import etmismiydiniz?
+03:23:54	Tarık KÜREN:	Replying to "No module named 'xgb..."
+
+pip install xgboost yapmış mıydınız öncesinde?
+03:23:57	Duygu:	Formülünü göstermiştiniz hocam
+03:25:28	Ayla Kayabas:	evet:)
+03:25:52	Dery@:	algo yerine kullanılanın adı neydi
+03:25:55	Av. Nagihan Merve Akaslan:	Replying to "No module named 'xgb..."
+
+yaptım teşekkürler
+03:26:07	Ufuk Yapar:	Reacted to "yaptım teşekkürler" with 👍
+03:26:55	ÖMER CAN:	Day 4 data:https://classroom.google.com/c/NTIzMjgyMzI0NTk3/m/NTIzMjgyMzI0Nzc0/details
+03:27:16	Bilge:	Replying to "algo yerine kullanıl..."
+
+@Dery@ zoom ses ayarlarından arka plan gürültüsü giderme fazla açık olabilir, düşük moda alırsanız sesiniz daha net gelecektir büyük ihtimalle
+03:28:17	Ufuk Yapar:	Replying to "algo yerine kullanıl..."
+
+AutoML
+03:28:23	Adem BAKIRCI:	hocam ben sertikayı almıştım ama projeleri tekrardan yapmak istiyorum(ama göndermeyeceğim) ama projeleri tekrardan yapmak istiyorum projeleri görmek ve yapabilmek için yeni sınıfa ekleyebilir misiniz
+03:32:09	Gülden B. KAVAL:	Replying to "algo yerine kullanıl..."
+
+bende pyton 3 çıkmıyor
+03:33:10	Mustafa Kayikci:	Reacted to "AutoML" with 🙏
+03:33:17	Dery@:	Reacted to "@Dery@ zoom ses ayar..." with ❤️
+03:33:25	Dery@:	Reacted to "AutoML" with 👍
+03:33:56	Abdullatif:	😂
+03:34:02	Ayla Kayabas:	:)
+03:34:33	Abdullatif:	import pandas as pdpd.set_option("display.max_columns",100)import warningswarnings.simplefilter('ignore')#Classifier Modellerifrom sklearn.naive_bayes import GaussianNB #2 den fazla sınıf için bunu kullanmafrom sklearn.naive_bayes import BernoulliNB #2 den fazla sınıf için bunu kullanmafrom sklearn.neighbors import KNeighborsClassifierfrom sklearn.svm import SVCfrom sklearn.tree import DecisionTreeClassifierfrom sklearn.ensemble import RandomForestClassifierfrom sklearn.ensemble import GradientBoostingClassifierfrom sklearn.linear_model import LogisticRegressionfrom xgboost import XGBClassifier#Classifier Skorlarıfrom sklearn.metrics import accuracy_score, precision_score, recall_scorefrom sklearn.metrics import f1_score, confusion_matrix, classification_report
+03:34:41	Abdullatif:	Bu işinize yarar mı hocam
+03:37:03	Zafer Acar:	import pandas as pdpd.set_option("display.max_columns",100)import warningswarnings.filterwarnings('ignore')
+03:42:48	Duygu:	Çocuklu ve evli olanlara daha çok maaş veriyorlar 😕
+03:43:18	Dr. Murat ALTUN:	bu çok güzel : df.describe().T
+03:43:58	Abdullatif:	Reacted to "bu çok güzel : df.de..." with 👍
+03:44:31	Salih B:	Reacted to "bu çok güzel : df.de..." with 👍
+03:45:36	dilara:	Reacted to "bu çok güzel : df.de..." with 🤍
+03:47:02	Dr. Murat ALTUN:	Reacted to "bu çok güzel : df.de..." with 🤍
+03:51:25	Halil Şirin:	Şimdi şirketler nerde oturduğunuzu ciddi önemsiyor, almıyor
+03:53:58	onurayan:	Replying to "Şimdi şirketler nerd..."
+
+Servis maliyetleri artık çok yüksek ve trafik saatleri de uzadı çünkü
+03:54:45	Gülçin Karaoğlu:	Replying to "Çocuklu ve evli olan..."
+
+:)
+03:57:33	Dr. Murat ALTUN:	df['Attrition']=df['Attrition'].apply(lambda x:1 if x=='Yes' else 0)
+03:58:16	Dr. Murat ALTUN:	Alternatif
+03:58:20	Dr. Murat ALTUN:	Reacted to "Alternatif" with 😅
+03:58:26	Abdullatif:	df['Attrition'].replace(['Yes', 'No'], [1,0], inplace=True)
+03:58:28	Abdullatif:	bu da var
+03:59:31	Duygu:	:)
+04:01:02	Duygu:	Hiç cevabı olmayanlar boş olanlar
+04:01:50	Osman Yıldırım:	Reacted to "Hiç cevabı olmayanla..." with 👍
+04:03:58	Fatih Baytar:	hocam x dolu dan alıp y yi df den aldınız, veri countları farklı olmayacak mı?
+04:03:59	Gülden B. KAVAL:	evet
+04:04:05	Ayla Kayabas:	:)
+04:04:10	Gülden B. KAVAL:	biliyoruz
+04:04:21	Melih Bedirhan Calis:	hocam datasetimizde outlierimiz var onlarin analizini yapmak dogru olur mu
+04:04:27	Gülden B. KAVAL:	benim alanım :)
+04:04:30	Ayfer Akova:	yardım alabilir miyim
+04:04:50	Ufuk Yapar:	Replying to "yardım alabilir miyi..."
+
+Odaya davet ediyorum
+04:04:58	Ayla Kayabas:	:)
+04:05:09	Ayfer Akova:	Replying to "yardım alabilir miyi..."
+
+tamam
+04:05:31	Abdullatif:	süpermiş
+04:05:50	dilara:	kadınlara işe yaramaz hocam 1 tane negatif yeter :D
+04:05:53	onurayan:	Hocam Alışkanlıkların Gücü kitabını okudunuz sanırım siz de
+04:07:09	Mustafa Kayikci:	İki iletken arası bir yalıtkan🙂
+04:07:31	Gülden B. KAVAL:	Reacted to "İki iletken arası bi..." with 👍
+04:10:09	Zafer Acar:	sns.countplot(x=df['EducationField'])plt.xticks(rotation=90);
+04:11:09	Iclal:	Alt
+04:12:32	Dr. Murat ALTUN:	((1+100)/2)*100
+04:12:51	Dr. Murat ALTUN:	Filmi vardı dövüyordu çoçuğu
+04:13:32	Duygu:	import matplotlib.pyplot as plt
+04:13:56	Dr. Murat ALTUN:	import matplotlib.pyplot as pltplt.figure(figsize=(10,10))plt.xticks(rotation=90)sns.countplot(x='EducationField',data=df);
+04:15:37	dilara:	akoşkan mekaniği
+04:15:47	öznur:	hocam sayenizde formül ezberlemeden aklımızda kaldı ardışık sayıların toplamı 😀
+04:18:02	Fatih Baytar:	df
+04:20:40	Duygu:	Amacımız dolulardan boşları bulmak değil mi ama
+04:20:57	Zafer Acar:	from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+04:22:16	Ayla Kayabas:	80 çıktı
+04:22:29	Ayla Kayabas:	:))
+04:23:48	Fatih Hoşoğlu:	yardım alabir iyim
+04:23:59	Yunus Kıran:	ben de hata aldım
+04:24:00	Ufuk Yapar:	Replying to "yardım alabir iyim"
+
+Odaya davet ediyorum
+04:24:35	Ayla Kayabas:	Bende heatmap boş geliyor sürekli
+04:25:13	Abdullatif:	from sklearn.model_selection import train_test_split
+04:26:10	Dr. Murat ALTUN:	from sklearn.model_selection import train_test_split
+04:27:05	Dery@:	heatmap'ı nasıl yorumluyoruz
+04:27:42	dudu 2:	son kodları yazabilir misiniz yetişemedim
+04:28:11	Ayla Kayabas:	precision 82 bende
+04:28:24	Yunus Kıran:	yardım alabilir miym
+04:29:16	Tarık KÜREN:	GaussianNB ile bende precision 0.95 çıktı bu da overfitting midir hocam?
+04:29:23	Duygu:	X diğerinden farklı yazılmış sanki
+04:29:48	Duygu:	59. Satırdaki x büyük alttaki küçük
+04:29:56	Abdullatif:	x=dolu.drop("Attrition", axis=1)
+04:30:36	Gülçin Karaoğlu:	Yardım alabilir miyim?
+04:32:11	dudu 2:	ben yetişemedim
+04:32:12	öznur:	yes
+04:32:12	Mustafa Kayikci:	Import ins ten sonrası kodları rica etsem
+04:32:14	Yunus Kıran:	yetişiyoruz ama bir hatam var hocam
+04:32:54	Tarık KÜREN:	Poe kurmamış olsam yetişemezdim hocam, o ne yazacağımı tahmin ediyor da o şekilde yetişebiliyorum 🙂
+04:32:54	Ayla Kayabas:	Hocam bende neden heatmap dolu gelmiyor acaba?
+04:33:09	Dr. Murat ALTUN:	x_train,x_test,y_train,y_test=train_test_split(X,y,test_size=0.3,random_state=42)
+04:34:20	Duygu:	Virgül var
+04:34:22	Tarık KÜREN:	virgül
+04:34:25	Abdullatif:	from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+04:34:52	Emir Kaan Özdemir:	Ben de hata alıyorum.
+04:35:05	ÖMER CAN:	Replying to "Ben de hata alıyorum..."
+
+odaya davet ediyorum
+04:35:05	Yunus Kıran:	Reacted to "from sklearn.metrics..." with ❤️
+04:36:07	Dery@:	Modelin başarımını arttırmak için başka neler yapabiliriz
+04:36:42	Yunus Kıran:	Reacted to "x_train,x_test,y_tra..." with ❤️
+04:37:02	öznur:	fotoğraf çekip yakalayabilirsiniz kodları
+04:37:27	öznur:	yetişemediğimde kurtarıcı çözüm oluyo
+04:37:29	Yasin Yücetaş:	lightshot adlı programla hızlıca ss ler alınabilir
+04:39:02	Mustafa Kayikci:	Replying to "Ben de hata alıyorum..."
+
+Harika olur hocam
+04:43:50	Hatice Tutuş:	hayır
+04:46:16	Merve yurukler:	Hocam ekranınızı biraz büyütebilir misiniz
+04:49:21	Yunus Kıran:	316 dan 41 çıktı farklı olması normal mi
+04:49:41	Tarık KÜREN:	Hocam bu ikisi arasında sonuçlarda fark oluyor mu?
+04:49:43	Tarık KÜREN:	confusion_matrix(y_test,tahminR)
+04:49:51	Tarık KÜREN:	confusion_matrix(tahminR, y_test)
+04:51:47	Sehri Altay:	Replying to "316 dan 41 çıktı far..."
+
+bende de  317 42 cıktı
+04:52:16	Yunus Kıran:	Reacted to "bende de  317 42 cık..." with 👏
+04:53:25	Samet Yazıcı:	from sklearn.ensemble import GradientBoostingClassifiergb=GradientBoostingClassifier()gb.fit(x_train,y_train)gbtahmin = gb.predict(x_test)print(classification_report(y_test,gbtahmin))confusion_matrix(y_test,gbtahmin)
+04:53:49	Yunus Kıran:	Reacted to "from sklearn.ensembl..." with 👏
+04:55:38	Dery@:	classification reportu tekrar yorumlarmısınız 🙏
+04:58:08	Ayla Kayabas:	bende gelmedi hata
+05:02:08	İbrahim & Tolga Yıldız:	The error you're encountering might be related to the way the data is being passed to the KNeighborsClassifier in scikit-learn. Let's try modifying the code to see if we can resolve the issue:
+
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Ensure the data is in the right format (e.g., numpy arrays)
+x_train = x_train.values if isinstance(x_train, pd.DataFrame) else x_train
+x_test = x_test.values if isinstance(x_test, pd.DataFrame) else x_test
+y_train = y_train.values if isinstance(y_train, pd.Series) else y_train
+y_test = y_test.values if isinstance(y_test, pd.Series) else y_test
+
+# Instantiate the KNeighborsClassifier
+k = KNeighborsClassifier()
+
+# Train the classifier
+k.fit(x_train, y_train)
+
+# Make predictions
+ktahmin = k.predict(x_test)
+
+# Generate and print the classification report
+print(classification_report(ktahmin, y_test))
+05:02:28	Abdullatif:	import numpy as npx_test = np.array(x_test)ile çözüldü hocam
+05:03:16	Dery@:	teşekkürler hocam
+05:03:18	Fatih Baytar:	hocam bug var dşyorlar
+05:03:30	Abdullatif:	import numpy as npx_test = np.array(x_test)
+05:04:47	Ayla Kayabas:	:)
+05:05:21	Dery@:	40:)
+05:05:23	Ayla Kayabas:	30 dak. iyi hocam
+05:05:28	onurayan:	30 iyi hocam
+05:05:32	Ahmed Faruk:	iyi hocam
+05:05:32	Sehri Altay:	30 ıyı hocam
+05:05:34	Av. Nagihan Merve Akaslan:	30 iyi bence de
+05:05:45	Halil Şirin:	Ara odaya geçebilir miyim?
+05:06:47	onurayan:	WP tan da yapabiliriz anketi Zoom üzerinden olmuyorsa
+05:06:57	Yunus Kıran:	wp da olursa orda katılmayanlar var
+05:07:09	Yunus Kıran:	:)
+05:19:01	Gülçin Karaoğlu:	Kayda başladı galiba
+05:19:03	Gülçin Karaoğlu:	hocam
+05:49:02	Dr. Murat ALTUN:	hazırız
+05:49:08	Ayla Kayabas:	hoşbulduk hocam hazırız:)
+05:49:16	Ayla Kayabas:	sizden
+05:49:19	Ayla Kayabas:	:)
+05:49:20	Dr. Murat ALTUN:	içten
+05:49:23	Faruk B.D:	hazırız
+05:49:28	Yunus Kıran:	hocam ekranı biraz büyütür müsünüz
+05:50:13	Av. Nagihan Merve Akaslan:	12:45i bile geçti çok geç oldu boşa gidiyor zaman
+05:52:46	ÖMER CAN:	https://www.kaggle.com/competitions/titanic
+05:59:12	Dr. Murat ALTUN:	😂
+06:02:25	Yunus Kıran:	hocan ekranı biraz büyütür müsünüz
+06:08:30	JHB HIKMET DEVLET:	Hocam ekrani buyutebilir misiniz rica etsek.  Iki ekranda kucuk kaliyor biraz. Tesekkur ederiz
+06:09:01	Dr. Murat ALTUN:	K Ortalamalar
+06:10:09	Yunus Kıran:	Replying to "Hocam ekrani buyuteb..."
+
+zoom'u da bir tık büyütebilirsiniz %50 yapın sonra büyütün yazılar büyük gösteriyor
+06:10:46	Dilara Özgencigör:	Replying to "Hocam ekrani buyuteb..."
+
+zoomu tam ekran yaptıktan sonra alt+tab ile zoomun üstüne jupyter açarsanız zoom ekranı küçülmeden kullanabilirsiniz
+06:10:47	öznur:	süper ortam :)
+06:11:25	Dilara Özgencigör:	Replying to "Hocam ekrani buyuteb..."
+
+yani zoom büyük ve kendi jupyter'iniz küçük kalacak şekilde
+06:11:28	Iclal:	Videoya tiklayip kendi ekranınıza görede büyütebilirsiniz
+06:12:49	dudu 2:	üstteki kodu görebilir miyim hocam
+06:13:11	Zafer Acar:	+from sklearn.cluster import KMeansfrom sklearn.metrics import silhouette_score
+06:14:15	Dr. Murat ALTUN:	kümeleme
+06:15:19	Gülçin Karaoğlu:	m harfi
+06:17:50	dudu 2:	tahmin değerleri herkeste farklı mı
+06:18:09	Iclal:	Replying to "tahmin değerleri her..."
+
+Bende ayni
+06:18:17	ÖMER CAN:	farklı olabilir problem yok
+06:18:35	öznur:	Reacted to "farklı olabilir prob..." with 👍
+06:18:36	Merve yurukler:	Ben hata alıyorum
+06:18:46	Dilara:	Replying to "{E1576E93-AE97-4BAE-A621-0017CA794B93}.png"
+
+x.loc[:, 'cluster'] = tahmin olarak deneyin
+06:18:52	dudu 2:	Reacted to "farklı olabilir prob..." with 👍
+06:20:48	Ufuk Yapar:	Replying to "Ben hata alıyorum"
+
+X i atadığımız yeri bir atabilrimisinz
+06:21:03	Ufuk Yapar:	Replying to "Ben hata alıyorum"
+
+Atadığınız? Orda hata olabilir
+06:21:39	Merve yurukler:	Replying to "Ben hata alıyorum"
+
+x=df[['Price','Mileage','Cylinder']]
+06:22:23	Zafer Acar:	plt.figure(figsize=(10,6))plt.scatter(x.Mileage,x.Price, c=tahmin)plt.colorbar()
+06:26:20	Bilge:	@Dr. Murat ALTUN nasıl sizin gibi farklı renklerin numaralarını lejant gibi  gösterebiliriz :))
+06:26:42	Saliha:	elbow metoduyla buluruz
+06:28:59	İbrahim & Tolga Yıldız:	Misfits mi hocam
+06:31:19	öznur:	daha doğal gibi bence
+06:31:49	Yunus Kıran:	bence tamamen yapısı ile oynanmış
+06:32:16	arzu naki:	TADI TUZU TOK ARTIK GERÇEK DOMATES BULAMIYORUZ
+06:32:33	öznur:	bizim ninemizin tohumları var verdiği domateslerden çekirdiklerini özel olarak aldırtır bize sonra kurutur eker kocaman şekilsşz pembe dometesleri oluyor
+06:32:37	Ufuk Yapar:	Reacted to "TADI TUZU TOK ARTIK ..." with 😃
+06:32:41	arzu naki:	Reacted to "TADI TUZU TOK ARTIK ..." with 😃
+06:32:55	öznur:	çok lezzetli🥹
+06:33:00	Yunus Kıran:	Reacted to "çok lezzetli🥹" with 👏
+06:33:07	arzu naki:	ben de alabilirim
+06:33:18	arzu naki:	Reacted to "çok lezzetli🥹" with 👏
+06:33:34	Gülden B. KAVAL:	tohmları satıyor musunuz  :)
+06:33:39	Abdullatif:	Kırmızı renk tonlaması için:import numpy as npfrom matplotlib.colors import ListedColormaprenkler = ['red', 'darkred', 'indianred', 'firebrick']cmap = ListedColormap(renkler)plt.figure(figsize=(10,6))plt.scatter(x.Mileage, x.Price, c=tahmin, cmap=cmap)plt.colorbar();plt.xlabel("Km")plt.ylabel("Fiyat")
+06:33:49	arzu naki:	ürün alabilirm satış varsa
+06:33:59	öznur:	yok satmıyor 😀 çok kıymetli onun için
+06:34:28	Samet Yazıcı:	Reacted to "çok lezzetli🥹" with 👏
+06:34:31	Dr. Murat ALTUN:	Replying to "@Dr. Murat ALTUN nas..."
+
+sns.scatterplot(x=X['Price'], y=X['Mileage'], hue=X['Cluster'], size=X['Cylinder'], palette='Set1');
+06:34:48	Yunus Kıran:	Reacted to "sns.scatterplot(x=X[..." with 👏
+06:34:55	Gülden B. KAVAL:	Reacted to "yok satmıyor 😀 çok ..." with 😍
+06:35:33	arzu naki:	Reacted to "yok satmıyor 😀 çok ..." with 😍
+06:37:15	Bilge:	Reacted to "sns.scatterplot(x=X[..." with 😁
+06:39:23	Yunus Kıran:	Replying to "@Dr. Murat ALTUN nas..."
+
+?
+06:39:55	Bilge:	Replying to "@Dr. Murat ALTUN nas..."
+
+x=X[""] kısımlarının hepsindeki x küçük olacak
+06:39:58	Tarık KÜREN:	Replying to "@Dr. Murat ALTUN nas..."
+
+X’i küçük denemiş miydiniz?
+06:40:09	Bilge:	Replying to "@Dr. Murat ALTUN nas..."
+
+sonra da Cluster ların c küçük olacak
+06:42:06	Abdullatif:	Poe de 3 sistem adı verdi
+06:43:00	Yunus Kıran:	Replying to "@Dr. Murat ALTUN nas..."
+
+🤔
+06:43:29	Bilge:	Replying to "@Dr. Murat ALTUN nas..."
+
+sns.scatterplot(x=x['Price'], y=x['Mileage'], hue=x['cluster'], size=x['Cylinder'], palette='Set1');
+06:43:43	Bilge:	Replying to "@Dr. Murat ALTUN nas..."
+
+ben düzenleme yparak bunu kullandığımda çalıştı
+06:43:50	Bilge:	Replying to "@Dr. Murat ALTUN nas..."
+
+sizde de olur belki?
+06:43:52	onurayan:	Svm inanılmazmış
+06:44:13	Yunus Kıran:	Replying to "@Dr. Murat ALTUN nas..."
+
+şimdi oldu teşekkür ederim
+06:44:30	Bilge:	Reacted to "şimdi oldu teşekkür ..." with ❣️
+06:45:36	öznur:	son koda bakabilir miyim
+06:45:57	Bilge:	Replying to "son koda bakabilir m..."
+
+plt.figure(figsize=(10,6))plt.scatter(x.Mileage,x.Price,c=tahmin)plt.xlabel("Mileage")plt.xlabel("Price")plt.colorbar()
+06:46:18	Bilge:	Replying to "son koda bakabilir m..."
+
+import matplotlib.pyplot as plt
+06:46:25	Bilge:	Replying to "son koda bakabilir m..."
+
+öncesinde bu gelecek
+06:46:41	onurayan:	Inertia = atalet
+06:47:03	öznur:	Reacted to "plt.figure(figsize=(..." with 💐
+06:48:03	Dr. Murat ALTUN:	ithin-Cluster-Sum-of-Squares
+06:48:11	Dr. Murat ALTUN:	Within-Cluster-Sum-of-Squares
+06:48:56	Abdullatif:	ss.append(silhouette_score(x, model.predict(x)))
+06:51:40	Halil Şirin:	for i in range(1, 10):
+    model = KMeans(n_clusters=i)
+    model = model.fit(x)
+    tahmin = model.predict(x)
+    ss1 = silhouette_score(x, tahmin)
+    ss.append(ss1)
+    print(ss1)
+    wcss.append(model.inertia_)
+06:51:41	Fatih Baytar:	ikiden başlatınca oluyor
+06:52:51	Iclal:	IndentationError: expected an indented block after 'for' statement on line 4
+Bu hatayı veriyor
+06:53:25	Dr. Murat ALTUN:	sns.lineplot(x=range(2, 11), y=wcss, marker='o', color='red')
+06:53:30	Yağız Demirbaş (Student):	for yazdığınız satırdan sonraki satırların başına tab koyun
+06:55:26	efeacikgoz:	Hocam for yazdigimiz kısmı bir kez daha gösterebilir misiniz
+06:55:42	Saliha:	for i in range(1, 10):    model = KMeans(n_clusters=i)    model = model.fit(x)    tahmin = model.predict(x)    ss1 = silhouette_score(x, tahmin)    ss.append(ss1)    print(ss1)    wcss.append(model.inertia_)
+06:56:40	efeacikgoz:	Bende hata veriyor
+06:56:52	Ayla Kayabas:	:))
+06:57:19	Dilara:	:D
+06:57:19	Iclal:	Replying to "for i in range(1, 10..."
+
+(2,10) olmicakmiydi
+06:57:42	UĞUR:	hocam biraz Yukari cikarmisiniz
+06:58:09	Zafer Acar:	#wcss= within cluster sum of squareswcss=[]ss=[]for i in range(2,10):    model=KMeans(i)    model=model.fit(x)    tahmin=model.predict(x)    ss1=silhouette_score(x,tahmin)    ss.append(ss1)    print(ss1)    wcss.append(model.inertia_)
+06:58:56	Av. Nagihan Merve Akaslan:	ValueError: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+06:59:43	Dr. Murat ALTUN:	çok güzel bir paket
+07:00:37	Cemile:	Replying to "ValueError: Number o..."
+
+for i in range(2,10): burda 1 yazılmıştı ilk  2 ile değiştirildi
+07:02:39	Dr. Murat ALTUN:	from sklearn.cluster import KMeansfrom yellowbrick.cluster import KElbowVisualizermodel = KMeans(random_state=42)visualizer = KElbowVisualizer(model, k=(2,10), metric='distortion', timings=False)visualizer.fit(X)  visualizer.show()
+07:03:32	Yunus Kıran:	:)
+07:03:57	Dr. Murat ALTUN:	Hemen öğreniyoruz sayenizde
+07:04:06	Dr. Murat ALTUN:	😅
+07:04:38	Dr. Murat ALTUN:	Hem de nasıl var
+07:05:04	Abdullatif:	from scipy.cluster.hierarchy import dendrogram, linkage
+07:05:50	Bilge:	liseli olmanın faydaları
+07:05:55	Bilge:	taze aklımızda
+07:06:04	öznur:	Reacted to "taze aklımızda" with 😀
+07:06:08	Dr. Murat ALTUN:	Reacted to "taze aklımızda" with 👍
+07:06:14	Yunus Kıran:	Reacted to "liseli olmanın fayda..." with 😂
+07:07:48	Halil Şirin:	Dendrogramda neden 3 grup?
+07:10:03	Dery@:	import matplotlib.pyplot as pltfrom scipy.cluster.hierarchy import dendrogramplt.figure(figsize=(15, 10))# Dendrogram oluşturdendrogram(data, truncate_mode='level', p=3)  # p: Kümeleme sayısıplt.xlabel('Sample Index')plt.ylabel('Distance')plt.title('Dendrogram')plt.show()
+07:11:19	onurayan:	Parantez içine girip B yazıp Tab a basınca da kalanı getiriyor
+07:12:08	Abdullatif:	yok hocam
+07:12:11	Ayla Kayabas:	:)))
+07:12:15	Ayfer Akova:	yok :)
+07:12:20	öznur:	😁
+07:12:20	Adem BAKIRCI:	😀
+07:12:29	Dr. Murat ALTUN:	🤭
+07:15:03	Ayla Kayabas:	zeginin malı
+07:15:08	Dr. Murat ALTUN:	Başımız belya girmesin
+07:15:31	Abdullatif:	df[df["country"]=="Turkey"]
+07:15:33	Ayla Kayabas:	:))
+07:15:34	onurayan:	Log eklesek grafiğe daha iyi olur mu hocam
+07:18:25	öznur:	hindistana bak sen
+07:18:38	Ayla Kayabas:	destekliyor devler
+07:18:43	Ayla Kayabas:	devlet ayrıca
+07:18:54	öznur:	mühendislikte para var demikki hocam :)
+07:19:29	onurayan:	Hocam mantalite tamamen adamlar girişimci Avrupalılar bile zihniyet olarak çok geride bakmayın
+07:19:56	öznur:	Hindistan deyince hepsi mühendis olmuş bir ülke canlanıyor gözümde😁
+07:20:08	Dr. Murat ALTUN:	İbrahim Erdemoğlu
+07:20:11	Dr. Murat ALTUN:	Murat Ülker
+07:20:49	Gülden B. KAVAL:	evet hocam
+07:20:53	Gülden B. KAVAL:	bağışçımız
+07:21:02	Gülden B. KAVAL:	erman bey
+07:21:22	Gülden B. KAVAL:	erman ılıcak fen lisesi
+07:22:55	Faruk B.D:	selfmade olup olmaması gözükür mü hocam
+07:26:06	onurayan:	Sabancı koç aile geniş olunca hisse bölünüyor demek ki 🙂
+07:26:17	öznur:	bisküvi satıyor😄
+07:26:22	onurayan:	Soyadlara göre gruplayabilir miyiz koçları 🙂
+07:26:36	Osman Yıldırım:	Erdemoğlu Holding inin sahibi
+07:26:40	arzu naki:	halı mobilya satıyor en zengini
+07:26:53	öznur:	ikas gelecek gbi
+07:27:01	öznur:	yazılım şirketi olarak
+07:27:07	öznur:	çok ddalı
+07:27:14	öznur:	mustafa namoğlu
+07:27:21	Dilara:	ikas e-ticaret şirketi hocam
+07:27:29	öznur:	yok hocam😄
+07:27:46	Bilge:	türkiyedekileri gösterdiğimiz bir üstteki kodu atabilir misiniz
+07:28:06	Zafer Acar:	tr=df[df['country']=='Turkey']
+07:28:12	Zafer Acar:	sns.barplot(x=tr['personName'],y=tr['finalWorth'])plt.xticks(rotation=90);
+07:28:20	arzu naki:	merikanın en zenginini bulalım
+07:28:23	Zafer Acar:	sns.countplot(x=tr['selfMade'])
+07:29:24	Dr. Murat ALTUN:	sns.countplot(x=tr_df['category'])plt.xticks(rotation=90)plt.show()
+07:29:39	Gülden B. KAVAL:	inşaat olabilir :)
+07:30:06	Dr. Murat ALTUN:	sns.countplot(x=df['category'])plt.xticks(rotation=90)plt.show()
+07:30:08	Dr. Murat ALTUN:	Dünya
+07:30:48	arzu naki:	tr inşaatta milyarder o da devlet destekli olduğu için
+07:31:35	Dery@:	Billionaires.csv atabilir misiniz
+07:33:42	Bilge:	erkek ve kadınların birbirine oranını nasıl bulabiliriz?
+07:33:59	Melih Bedirhan Calis:	trendyolun kurucusu olabilir
+07:34:01	Dr. Murat ALTUN:	tr_df['gender'].value_counts()
+07:36:25	onurayan:	Çok iyi bravo Esma ya
+07:36:38	Dr. Murat ALTUN:	Replying to "erkek ve kadınların ..."
+
+tr_df['gender'].value_counts(normalize=True)
+07:38:03	Bilge:	Reacted to "tr_df['gender'].valu..." with ☺️
+07:38:26	onurayan:	Hocam SQL macOS M işlemcili bilgisayarlarda çalışmıyor sanırım değil mi? Virtual machine istiyor, o da kurulmuyor
+07:40:08	Fatih Baytar:	Mac iniz var ise M1, Docker üzerinden çalıştırabilirsiniz
+07:41:16	onurayan:	Replying to "Mac iniz var ise M1,..."
+
+Hocanın dediği Tensorflow da çalışır mı docker üzerinde?
+07:41:26	Beyza Alpay:	hocam day 4 notebook kısmında clustering notebookunu da yükleyelim mi?
+07:41:27	ÖMER CAN:	Replying to "Mac iniz var ise M1,..."
+
+çalışır
+07:41:36	onurayan:	Replying to "Mac iniz var ise M1,..."
+
+Harika çok teşekkür ederim
+07:41:45	onurayan:	Reacted to "çalışır" with ❤️
+07:41:49	onurayan:	Reacted to "Mac iniz var ise M1,..." with ❤️
+07:42:26	Ufuk Yapar:	Replying to "hocam day 4 notebook..."
+
+Evet bugünün kodlarını gönderceksiniz
+07:43:33	Duygu:	Hocam ya 😅
+07:43:34	Ayla Kayabas:	:)
+07:43:57	Fatih Baytar:	Çok harikaydı hocam, emeğinize sağlık
+07:44:00	arzu naki:	hocam orası -4 derece mi
+07:44:08	öznur:	teşekkürler
+07:44:10	Gülden B. KAVAL:	çok teşekkürler
+07:44:14	Dery@:	harikaydınız hocam çok teşekkürler
+07:44:17	Ayla Kayabas:	Emeğinize sağlık hocam teşekkürler
+07:44:29	Yunus Kıran:	kim diyor hocam :D
+07:44:30	Çağla Derin Şahin:	yine çok güzel bir ders oldu teşekkür ederiz hocam.
+07:45:00	İbrahim & Tolga Yıldız:	Bonus ödev koyabilirsiniz Hocam
+07:45:09	Salih B:	Titanic regression olacaktı degilmi
+07:45:42	Ufuk Yapar:	Replying to "Titanic regression o..."
+
+classification
+07:48:05	Salih B:	Reacted to "classification" with 👍
+07:48:05	öznur:	profil kime aitti
+07:48:16	Zafer Acar:	https://medium.com/coders-camp/200-machine-learning-projects-solved-and-explained-56f1cc1c9ff3
+07:48:23	öznur:	Reacted to "https://medium.com/c..." with 💐
+07:48:57	onurayan:	Reacted to "https://medium.com/c..." with 💐
+07:49:23	Abdullatif:	Türkçe okumak isteyenler için:https://medium.com/@fahrettinf/4-1-yapay-zeka-algoritmalar%C4%B1-fd64b8080748#:~:text=Yapay%20zeka%20algoritmalar%C4%B1%20genel%20olarak%20%C3%BC%C3%A7%20kategori%20alt%C4%B1nda%20grupland%C4%B1r%C4%B1lmaktad%C4%B1r.,Learning%20(Kuvvetlendirmeli%20%C3%96%C4%9Frenme)%20y%C3%B6ntemleridir.
+07:49:47	Dr. Murat ALTUN:	Hocam elinize bilginize sağlık
+07:50:02	Dery@:	Hiç bitmesin isteyenler burada hocam :)
+07:50:07	Yunus Kıran:	Reacted to "Hiç bitmesin isteyen..." with 😂
+07:50:19	Faruk B.D:	sağolun hocam güzel gidiyor
+07:50:25	Mustafa Kayikci:	Reacted to "Hiç bitmesin isteyen..." with 👍
+07:50:33	Ayla Kayabas:	Reacted to "Hiç bitmesin isteyen..." with 👍
+07:50:52	Faruk B.D:	kariyer görüşmeleri olacak mı hocam
+07:51:24	Duygu:	Reacted to "Hiç bitmesin isteyen…" with 👍
+07:51:26	öznur:	projeden beklentileri ne oluyor hocam
+07:51:27	Halil Şirin:	Teşekkürler hocam
+07:51:38	öznur:	sace bu şekilde kod mu yapıyorsunuz
+07:51:41	öznur:	sunum mu
+07:51:57	Osman Yıldırım:	Hocam Bir veri setinde Benzer Soruları Getiren bir sistemi türkçe için nasıl yapabilirz  (Yönlendirebilir misiniz?)
+07:56:24	Iclal:	Hocam Almanyada bu isler nasıl ? Bilginiz varmi?
+07:59:16	Ayfer Akova:	teşekkürler hocam
+07:59:23	öznur:	çok güzel fikir
+08:01:48	Duygu:	Ne güzel olurdu hocam
+08:01:59	Ayla Kayabas:	Harika
+08:02:47	Ayla Kayabas:	:)
+08:02:57	arzu naki:	film kampı vardı ama onu yapacak mıyız
+08:02:58	Ayla Kayabas:	kurs
+08:03:03	Abdullatif:	😂
+08:04:55	arzu naki:	yapay zeka ile film yapımı kampı vardı o olacak mı
+08:05:10	Osman Yıldırım:	Hocam Bir veri setinde Benzer Soruları Getiren bir sistemi türkçe için nasıl yapabilirz  (Yönlendirebilir misiniz?)
+08:07:22	Ayla Kayabas:	simpsons bunu kullanıyor mu hocam
+08:07:33	Ayla Kayabas:	Kendinize iyi bakın hocam
+08:07:35	Fatih Baytar:	Hoşçakalın hocam
