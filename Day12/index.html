@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Machine Learning Model That Predicts Salary</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Machine Learning Model That Predicts Salary</h1>
+        <form action="/predict" method="post"> 
+            <input type="text" name="experience" placeholder="Experience" required value="0">
+            <input type="text" name="test" placeholder="Test Score" required>
+            <input type="text" name="interview" placeholder="Interview Score" required>
+            <button type="submit">Predict Salary</button>
+            <button type="reset">Reset</button>
+            <div class="prediction-text">{{ prediction_text }}</div>
+        </form>
+    </div>
+</body>
+</html> 
